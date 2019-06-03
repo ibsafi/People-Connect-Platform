@@ -1,0 +1,638 @@
+{
+    "date": {
+        "prepend": {
+            "variant": "info",
+            "icon": "fas fa-calendar-times"
+        },
+        "main": [
+            [
+                {
+                    "as": "input",
+                    "type": "date",
+                    "name": "date",
+                    "placeholder": "date"
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "name": {
+        "prepend": {
+            "variant": "secondary",
+            "icon": "fas fa-signature"
+        },
+        "main": [
+            [
+                {
+                    "as": "input",
+                    "type": "text",
+                    "name": "name",
+                    "placeholder": "name"
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "title": {
+        "prepend": {
+            "variant": "dark",
+            "icon": "fas fa-tag"
+        },
+        "main": [
+            [
+                {
+                    "as": "input",
+                    "type": "text",
+                    "name": "title",
+                    "placeholder": "title"
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "appLanguage": {
+        "prepend": {
+            "variant": "secondary",
+            "icon": "fas fa-language"
+        },
+        "main": [
+            [
+                {
+                    "as": "select",
+                    "type": "text",
+                    "name": "applanguage",
+                    "options": [
+                        {
+                            "text": "Arabic (عربي)",
+                            "value": "ar"
+                        },
+                        {
+                            "text": "English",
+                            "value": "en"
+                        },
+                        {
+                            "text": "Ukrainian",
+                            "value": "ua"
+                        },
+                        {
+                            "text": "Portuguese",
+                            "value": "pt"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "language": {
+        "prepend": {
+            "variant": "secondary",
+            "icon": "fas fa-language"
+        },
+        "main": [
+            [
+                {
+                    "as": "select",
+                    "type": "text",
+                    "name": "language",
+                    "placeholder": "language",
+                    "options": [
+                        {
+                            "value": "Afrikanns",
+                            "text": "Afrikanns"
+                        },
+                        {
+                            "value": "Albanian",
+                            "text": "Albanian"
+                        },
+                        {
+                            "value": "Arabic",
+                            "text": "Arabic"
+                        },
+                        {
+                            "value": "Armenian",
+                            "text": "Armenian"
+                        },
+                        {
+                            "value": "Basque",
+                            "text": "Basque"
+                        },
+                        {
+                            "value": "Bengali",
+                            "text": "Bengali"
+                        },
+                        {
+                            "value": "Bulgarian",
+                            "text": "Bulgarian"
+                        },
+                        {
+                            "value": "Catalan",
+                            "text": "Catalan"
+                        },
+                        {
+                            "value": "Cambodian",
+                            "text": "Cambodian"
+                        },
+                        {
+                            "value": "Chinese (Mandarin)",
+                            "text": "Chinese (Mandarin)"
+                        },
+                        {
+                            "value": "Croation",
+                            "text": "Croation"
+                        },
+                        {
+                            "value": "Czech",
+                            "text": "Czech"
+                        },
+                        {
+                            "value": "Danish",
+                            "text": "Danish"
+                        },
+                        {
+                            "value": "Dutch",
+                            "text": "Dutch"
+                        },
+                        {
+                            "value": "English",
+                            "text": "English"
+                        },
+                        {
+                            "value": "Estonian",
+                            "text": "Estonian"
+                        },
+                        {
+                            "value": "Fiji",
+                            "text": "Fiji"
+                        },
+                        {
+                            "value": "Finnish",
+                            "text": "Finnish"
+                        },
+                        {
+                            "value": "French",
+                            "text": "French"
+                        },
+                        {
+                            "value": "Georgian",
+                            "text": "Georgian"
+                        },
+                        {
+                            "value": "German",
+                            "text": "German"
+                        },
+                        {
+                            "value": "Greek",
+                            "text": "Greek"
+                        },
+                        {
+                            "value": "Gujarati",
+                            "text": "Gujarati"
+                        },
+                        {
+                            "value": "Hebrew",
+                            "text": "Hebrew"
+                        },
+                        {
+                            "value": "Hindi",
+                            "text": "Hindi"
+                        },
+                        {
+                            "value": "Hungarian",
+                            "text": "Hungarian"
+                        },
+                        {
+                            "value": "Icelandic",
+                            "text": "Icelandic"
+                        },
+                        {
+                            "value": "Indonesian",
+                            "text": "Indonesian"
+                        },
+                        {
+                            "value": "Irish",
+                            "text": "Irish"
+                        },
+                        {
+                            "value": "Italian",
+                            "text": "Italian"
+                        },
+                        {
+                            "value": "Japanese",
+                            "text": "Japanese"
+                        },
+                        {
+                            "value": "Javanese",
+                            "text": "Javanese"
+                        },
+                        {
+                            "value": "Korean",
+                            "text": "Korean"
+                        },
+                        {
+                            "value": "Latin",
+                            "text": "Latin"
+                        },
+                        {
+                            "value": "Latvian",
+                            "text": "Latvian"
+                        },
+                        {
+                            "value": "Lithuanian",
+                            "text": "Lithuanian"
+                        },
+                        {
+                            "value": "Macedonian",
+                            "text": "Macedonian"
+                        },
+                        {
+                            "value": "Malay",
+                            "text": "Malay"
+                        },
+                        {
+                            "value": "Malayalam",
+                            "text": "Malayalam"
+                        },
+                        {
+                            "value": "Maltese",
+                            "text": "Maltese"
+                        },
+                        {
+                            "value": "Maori",
+                            "text": "Maori"
+                        },
+                        {
+                            "value": "Marathi",
+                            "text": "Marathi"
+                        },
+                        {
+                            "value": "Mongolian",
+                            "text": "Mongolian"
+                        },
+                        {
+                            "value": "Nepali",
+                            "text": "Nepali"
+                        },
+                        {
+                            "value": "Norwegian",
+                            "text": "Norwegian"
+                        },
+                        {
+                            "value": "Persian",
+                            "text": "Persian"
+                        },
+                        {
+                            "value": "Polish",
+                            "text": "Polish"
+                        },
+                        {
+                            "value": "Portuguese",
+                            "text": "Portuguese"
+                        },
+                        {
+                            "value": "Punjabi",
+                            "text": "Punjabi"
+                        },
+                        {
+                            "value": "Quechua",
+                            "text": "Quechua"
+                        },
+                        {
+                            "value": "Romanian",
+                            "text": "Romanian"
+                        },
+                        {
+                            "value": "Russian",
+                            "text": "Russian"
+                        },
+                        {
+                            "value": "Samoan",
+                            "text": "Samoan"
+                        },
+                        {
+                            "value": "Serbian",
+                            "text": "Serbian"
+                        },
+                        {
+                            "value": "Slovak",
+                            "text": "Slovak"
+                        },
+                        {
+                            "value": "Slovenian",
+                            "text": "Slovenian"
+                        },
+                        {
+                            "value": "Spanish",
+                            "text": "Spanish"
+                        },
+                        {
+                            "value": "Swahili",
+                            "text": "Swahili"
+                        },
+                        {
+                            "value": "Swedish ",
+                            "text": "Swedish "
+                        },
+                        {
+                            "value": "Tamil",
+                            "text": "Tamil"
+                        },
+                        {
+                            "value": "Tatar",
+                            "text": "Tatar"
+                        },
+                        {
+                            "value": "Telugu",
+                            "text": "Telugu"
+                        },
+                        {
+                            "value": "Thai",
+                            "text": "Thai"
+                        },
+                        {
+                            "value": "Tibetan",
+                            "text": "Tibetan"
+                        },
+                        {
+                            "value": "Tonga",
+                            "text": "Tonga"
+                        },
+                        {
+                            "value": "Turkish",
+                            "text": "Turkish"
+                        },
+                        {
+                            "value": "Ukranian",
+                            "text": "Ukranian"
+                        },
+                        {
+                            "value": "Urdu",
+                            "text": "Urdu"
+                        },
+                        {
+                            "value": "Uzbek",
+                            "text": "Uzbek"
+                        },
+                        {
+                            "value": "Vietnamese",
+                            "text": "Vietnamese"
+                        },
+                        {
+                            "value": "Welsh",
+                            "text": "Welsh"
+                        },
+                        {
+                            "value": "Xhosa",
+                            "text": "Xhosa"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "category": {
+        "prepend": {
+            "variant": "secondary",
+            "icon": "fas fa-th-large"
+        },
+        "main": [
+            [
+                {
+                    "as": "select",
+                    "type": "text",
+                    "name": "category",
+                    "placeholder": "category",
+                    "options": [
+                        {
+                            "text": "Riding & Commute",
+                            "value": "Transportation"
+                        },
+                        {
+                            "text": "Delivery",
+                            "value": "Delivery"
+                        },
+                        {
+                            "text": "Tutoring",
+                            "value": "Tutoring"
+                        },
+                        {
+                            "text": "Cleaning",
+                            "value": "Cleaning"
+                        },
+                        {
+                            "text": "Language Support",
+                            "value": "Language Support"
+                        },
+                        {
+                            "text": "Daily Life Guidance",
+                            "value": "Life Guidance"
+                        },
+                        {
+                            "text": "Home Maintenence",
+                            "value": "Home Maintenence"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "subcategory": {
+        "prepend": {
+            "variant": "secondary",
+            "icon": "fas fa-th"
+        },
+        "main": [
+            [
+                {
+                    "as": "select",
+                    "type": "text",
+                    "name": "subcategory",
+                    "placeholder": "subcategory"
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "coverage": {
+        "prepend": {
+            "variant": "dark",
+            "icon": "fas fa-map"
+        },
+        "main": [
+            [
+                {
+                    "as": "input",
+                    "type": "text",
+                    "name": "coverage",
+                    "placeholder": "coverage"
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "contact": {
+        "prepend": {
+            "variant": "secondary",
+            "icon": "fas fa-user-circle"
+        },
+        "main": [
+            [
+                {
+                    "as": "input",
+                    "type": "text",
+                    "name": "contact",
+                    "placeholder": "contact"
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "email": {
+        "prepend": {
+            "variant": "secondary",
+            "icon": "fas fa-envelope"
+        },
+        "main": [
+            [
+                {
+                    "as": "input",
+                    "type": "email",
+                    "name": "email",
+                    "placeholder": "email"
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "phone": {
+        "prepend": {
+            "variant": "info",
+            "icon": "fas fa-phone"
+        },
+        "main": [
+            [
+                {
+                    "as": "input",
+                    "type": "number",
+                    "name": "phone",
+                    "placeholder": "phone"
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "price": {
+        "prepend": {
+            "variant": "warning",
+            "icon": "fas fa-dollar-sign"
+        },
+        "main": [
+            [
+                {
+                    "as": "input",
+                    "type": "number",
+                    "name": "price",
+                    "placeholder": "price"
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "password": {
+        "prepend": {
+            "variant": "warning",
+            "icon": "fas fa-key"
+        },
+        "main": [
+            [
+                {
+                    "as": "input",
+                    "type": "password",
+                    "name": "password",
+                    "placeholder": "password"
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "address": {
+        "prepend": {
+            "variant": "info",
+            "icon": "fas fa-map-marker-alt"
+        },
+        "main": [
+            [
+                {
+                    "as": "input",
+                    "type": "text",
+                    "name": "address",
+                    "placeholder": "address"
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "location": {
+        "prepend": {
+            "variant": "secondary",
+            "icon": "fas fa-map-marked-alt"
+        },
+        "main": [
+            [
+                {
+                    "as": "input",
+                    "type": "text",
+                    "name": "city",
+                    "placeholder": "city"
+                },
+                {
+                    "as": "input",
+                    "type": "text",
+                    "name": "province",
+                    "placeholder": "province"
+                }
+            ],
+            [
+                {
+                    "as": "input",
+                    "type": "text",
+                    "name": "postalcode",
+                    "placeholder": "postalcode"
+                },
+                {
+                    "as": "select",
+                    "type": "text",
+                    "name": "country",
+                    "placeholder": "country",
+                    "options": [
+                        {
+                            "text": "Canada",
+                            "value": "CA"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "append": {}
+    },
+    "description": {
+        "prepend": {
+            "variant": "secondary",
+            "icon": "fas fa-search"
+        },
+        "main": [
+            [
+                {
+                    "as": "textarea",
+                    "type": "text",
+                    "name": "description",
+                    "placeholder": "description",
+                    "class": "mh-2"
+                }
+            ]
+        ],
+        "append": {}
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "brand": {
+        "icon": "user",
+        "variant": "outline-warning",
+        "text": "People Connect"
+    },
+    "left": [
+        {
+            "icon": "market",
+            "text": "Market",
+            "href": "/market"
+        },
+        {
+            "icon": "service",
+            "text": "Services",
+            "href": "/services"
+        },
+        {
+            "icon": "login",
+            "text": "Login",
+            "href": "/login"
+        },
+        {
+            "icon": "company",
+            "text": "Company",
+            "href": "/market"
+        },
+        [
+            {
+                "icon": "company",
+                "text": "Company"
+            },
+            {
+                "icon": "fas fa-clipboard-list",
+                "text": "Tickets",
+                "href": ""
+            }
+        ]
+    ],
+    "right": [
+        {
+            "icon": "user",
+            "text": "Staff",
+            "href": "",
+            "onClick": "showModal"
+        }
+    ]
+}
