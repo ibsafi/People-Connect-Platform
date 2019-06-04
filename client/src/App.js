@@ -461,6 +461,7 @@ class App extends Component {
 
           case "/signup":
             API.signup(data).then(() => {
+              this.setError("You've successfuly signed-up an account");
             }).catch(err => {
               this.setError("Fail To sign-up");
             });
@@ -468,6 +469,7 @@ class App extends Component {
 
           case "/signout":
             API.signout().then(() => {
+              this.setError("You've successfuly signed-out");
               this.authUser(false);
             }).catch(err => {
               this.setError("Fail To sign-out");
