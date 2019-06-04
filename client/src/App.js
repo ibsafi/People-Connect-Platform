@@ -33,7 +33,6 @@ class App extends Component {
     right: [],
     left: [],
   }
-
   showModal = (state) => {
     this.setState({ showModal: state });
   }
@@ -416,7 +415,20 @@ class App extends Component {
         });
         tdata.tbody.push(row)
       })
-
+      // display no content
+      if (tdata.tbody.length === 0) {
+        tdata.tbody.push([{
+          text: "",
+          span: fields.length,
+          className: "px-2",
+          buttons: [{
+            type: "error",
+            text: "nocontent",
+            className: "mx-2 w-100",
+            variant: "info"
+          }]
+        }])
+      }
       let values = this.state.data;
       values[pathname] = tdata;
       this.setState({ data: values });
