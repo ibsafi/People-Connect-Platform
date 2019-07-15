@@ -263,8 +263,8 @@ class App extends Component {
             variant: (pathname === "/dashboard" ? "outline-info" : "outline-warning"),
             to: "/dashboard",
             active: (pathname === "/dashboard"),
-            text: (pathname === "/dashboard" ? "landing" : " "),
-            title: "landing"
+            text: (pathname === "/dashboard" ? "dashboard" : " "),
+            title: "dashboard"
           },
           {
             type: "market",
@@ -340,7 +340,7 @@ class App extends Component {
         this.navTabs.left = [
           {
             icon: "home",
-            text: "landing",
+            text: "dashboard",
             to: "/dashboard",
           },
           {

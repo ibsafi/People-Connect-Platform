@@ -35,7 +35,7 @@
                 {
                     "type": "buy",
                     "text": " ",
-                    "className": "mx-2",
+                    "className": "m-2",
                     "variant": "info",
                     "cmd": "buy"
                 }
@@ -78,14 +78,14 @@
                 {
                     "type": "edit",
                     "text": " ",
-                    "className": "mx-2",
+                    "className": "m-2",
                     "variant": "info",
                     "cmd": "edit"
                 },
                 {
                     "type": "delete",
                     "text": " ",
-                    "className": "mx-2",
+                    "className": "m-2",
                     "variant": "danger",
                     "cmd": "delete"
                 }
@@ -125,7 +125,7 @@
                 {
                     "type": "cancel",
                     "text": " ",
-                    "className": "mx-2",
+                    "className": "m-2",
                     "variant": "warning",
                     "cmd": "cancel"
                 }
@@ -165,7 +165,7 @@
                 {
                     "type": "confirm",
                     "text": " ",
-                    "className": "mx-2",
+                    "className": "m-2",
                     "variant": "warning",
                     "cmd": "confirm"
                 }
