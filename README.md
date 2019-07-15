@@ -6,6 +6,11 @@ This application is built for connecting people in the community who speak the s
 ## Project Dependencies:
 This app requires these node packages: `express`, `bcryptjs`, `cookie-parser`, `dotenv`, `express-session`, `i18next`, `mongoose`, `axios`.
 
+## The App Features:
+* Polished Front-End, Iconic design, and full-responsive (desktop and mobile) layout; by using Bootstrap, FontAwesome, and React frameworks.
+
+* Multi-language capability; supports four languages; `Arabic`, `English`, `Ukrainian`, `Portuguese`, as the user can change the app's language at anytime and any point.
+
 ## Basic Usage:
 * The app runs by navigating into the directory of the app folder, and then type the command  `npm start` in the command line terminal.
 
@@ -30,12 +35,6 @@ This app requires these node packages: `express`, `bcryptjs`, `cookie-parser`, `
 * In the `Add service` tab, app shows a form of adding new service as the user is the service provider. see the following screenshot.
 
 ![a Screenshot of add service](./images/addservice.png)
-
-## The App Features:
-
-* Polished Front-End, Iconic design, and full-responsive (desktop and mobile) layout; by using Bootstrap, FontAwesome, and React frameworks.
-
-* Multi-language capability; supports four languages; `Arabic`, `English`, `Ukrainian`, `Portuguese`, as the user can change the app's language at anytime and any point.
 
 ## Try it on HEROKU:
 This link will jump you to test the application, have fun!
