@@ -16,9 +16,9 @@ This app requires these node packages: `express`, `bcryptjs`, `cookie-parser`, `
 ![a Screenshot of dashboard](./images/dashboard.png)
 
 * In `See Market` tab, the app shows all available provided services in a table, as the user can `purchase` a service by clicking on the `cart` icon. see the following screenshot.
-```
+
 ![a Screenshot of market](./images/market.png)
-```
+
 * In the `My Orders` tab, the app shows all ordered services in a table, as the user can see the confirmation status of the service provider, and cancel the deal if wanted. see the following screenshot.
 
 ![a Screenshot of my orders](./images/myorders.png)
