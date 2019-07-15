@@ -25,7 +25,6 @@ function DashTable(props) {
                     <tr>
                         {props.data.thead.map((item, i) => (
                             <th key={i} id={i} className="font-weight-normal text-center align-middle noselect text-capitalize"><i className={item.icon}></i> {(item.text) ? t(item.text) : ""}</th>
-
                         ))}
                     </tr>
                 </thead>

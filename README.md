@@ -1,29 +1,43 @@
-# Create React Express App
+# People Connect App using React
 
-## About This Boilerplate
+## Overview:
+This application is built for connecting people in the community who speak the same language by providing day-to-day essential services. Also, this app can support new-comer families easily get familiar with the community and make strong bonds with the community. This application is equipped with React, NodeJS and MongoDB stack. 
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Project Dependencies:
+This app requires these node packages: `express`, `bcryptjs`, `cookie-parser`, `dotenv`, `express-session`, `i18next`, `mongoose`, `axios`.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Basic Usage:
+* The app runs by navigating into the directory of the app folder, and then type the command  `npm start` in the command line terminal.
 
-## Starting the app locally
+* To access the app, open the web-browser and navigate to: "localhost:3000".
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+* After, the user signed-in, the app's dashboard will show to user four main tabs; `See Market`, `My Orders`, `My Store`, and `Add Service`. see the following screenshot.
 
+![a Screenshot of dashboard](./images/dashboard.png)
+
+* In `See Market` tab, the app shows all available provided services in a table, as the user can `purchase` a service by clicking on the `cart` icon. see the following screenshot.
 ```
-npm install
+![a Screenshot of market](./images/market.png)
 ```
+* In the `My Orders` tab, the app shows all ordered services in a table, as the user can see the confirmation status of the service provider, and cancel the deal if wanted. see the following screenshot.
 
-This should install node modules within the server and the client folder.
+![a Screenshot of my orders](./images/myorders.png)
 
-After both installations complete, run the following command in your terminal:
+* In the `My Store` tab, the app shows a list all user's services and a list all orders of user's services, as the user can edit or delete services, and confirm or cancel orders. see the following screenshot.
 
-```
-npm start
-```
+![a Screenshot of my store](./images/mystore.png)
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+* In the `Add service` tab, app shows a form of adding new service as the user is the service provider. see the following screenshot.
 
-## Deployment (Heroku)
+![a Screenshot of add service](./images/addservice.png)
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+## The App Features:
+
+* Polished Front-End, Iconic design, and full-responsive (desktop and mobile) layout; by using Bootstrap, FontAwesome, and React frameworks.
+
+* Multi-language capability; supports four languages; `Arabic`, `English`, `Ukrainian`, `Portuguese`, as the user can change the app's language at anytime and any point.
+
+## Try it on HEROKU:
+This link will jump you to test the application, have fun!
+ 
+  * ["Try it"](https://damp-refuge-73768.herokuapp.com/)
